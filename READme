@@ -4,8 +4,8 @@
 *This assignment involves three task functions: processArray, formatArrayStrings, and userInfo.*
 
 //Task 1: processArray
-*Description:* This function takes an array of numbers as input (myArray) and processes each element based on whether it is even or odd. If the number is even, it squares the number; if the number is odd, it cubes the number.
-Example usage: processArray([1, 2, 3, 4, 5]) returns [1, 4, 27, 16, 25].
+*Description:* This function takes an array of numbers as input (myArray) and processes each element based on whether it is even or odd. If the number is even, it squares the number; if the number is odd, it tripples the number.
+Example usage: processArray([1, 2, 3, 4, 5]) returns [ 3, 4, 9, 8, 15 ].
 
 //Task 2: formatArrayStrings
 *Description:* This function takes two arrays as input (strings and numbers) and formats the strings based on the corresponding number. If the number is even, the string is converted to uppercase; if the number is odd, the string is converted to lowercase. The arrays strings and numbers must have the same length, otherwise an error is thrown.
