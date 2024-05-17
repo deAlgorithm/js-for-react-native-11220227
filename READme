@@ -1,0 +1,19 @@
+*ASSISNGMENT 1 README*
+// STUDENT ID : 11220227
+
+*This assignment involves three task functions: processArray, formatArrayStrings, and userInfo.*
+
+//Task 1: processArray
+*Description:* This function takes an array of numbers as input (myArray) and processes each element based on whether it is even or odd. If the number is even, it squares the number; if the number is odd, it cubes the number.
+Example usage: processArray([1, 2, 3, 4, 5]) returns [1, 4, 27, 16, 25].
+
+//Task 2: formatArrayStrings
+*Description:* This function takes two arrays as input (strings and numbers) and formats the strings based on the corresponding number. If the number is even, the string is converted to uppercase; if the number is odd, the string is converted to lowercase. The arrays strings and numbers must have the same length, otherwise an error is thrown.
+Example usage: formatArrayStrings(['Hello', 'World'], [1, 2]) returns ['hello', 'WORLD'].
+
+//Task 3: userInfo
+*Description:* This function takes two arrays as input (names and modifiedNames) and creates an array of user information objects. Each object contains the original name, modified name, and an ID (which is the index of the element plus 1). The arrays names and modifiedNames must have the same length, otherwise an error is thrown.
+Example usage: userInfo(['John', 'Paul'], ['john', 'PAUL']) returns [{originalName: 'John', modifiedName: 'john', id: 1}, {originalName: 'Paul', modifiedName: 'PAUL', id: 2}].
+
+Console Output of the Provided Example:
+[{originalName: 'John', modifiedName: 'john', id: 1}, {originalName: 'Paul', modifiedName: 'PAUL', id: 2}, {originalName: 'George', modifiedName: 'george', id: 3}, {originalName: 'Ringo', modifiedName: 'RINGO', id: 4}]
