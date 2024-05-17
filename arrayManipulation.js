@@ -15,4 +15,6 @@ function formatArrayStrings (strings, numbers) {
     );
 };
 
+console.log(processArray([1, 2, 3, 4, 5]));
+console.log(formatArrayStrings(['John', 'Paul', 'George', 'Ringo'], [1, 2, 3, 4]));
 
